@@ -1,0 +1,46 @@
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 100px);
+  text-align: center;
+}
+.authContainer {
+  width: 50%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 14px 22px 30px #817f7f;
+  border-radius: 15px;
+  padding: 25px 7px;
+}
+.textInputContainer {
+  margin: 20px 0;
+}
+.authContainer input {
+  width: 45%;
+  padding: 10px;
+  margin: 5px 0;
+}
+.authContainer input:focus {
+  outline: none;
+  border-color: #d91c3e;
+}
+.buttonContainer {
+  width: 100%;
+}
+.buttonContainer button {
+  background: rgb(74, 51, 191);
+  background: linear-gradient(90deg, #89f7fe 0%, #66a6ff 100%);
+  width: 160px;
+  height: 45px;
+  font-size: 20px;
+  color: white;
+  border-radius: 8px;
+}

@@ -1,0 +1,21 @@
+.info_map {
+  position: absolute;
+  background-color: #000;
+  top: 34%;
+  right: 6%;
+  z-index: 99999;
+  width: 267px;
+  padding: 20px;
+  color: #fff;
+  font-family: "Helvetica";
+  font-weight: 300;
+  animation: _fadeIn_t8zko_1 1s 1.5s;
+  animation-fill-mode: none;
+  animation-fill-mode: forwards;
+}
+.info_map span {
+  font-size: 20px;
+  display: block;
+  padding-top: 20px;
+  color: #ffd700;
+}
